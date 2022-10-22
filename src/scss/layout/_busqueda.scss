@@ -1,0 +1,39 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.busqueda-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem 0 2rem 0;
+
+    h3 {
+        margin: 0;
+    }
+
+    .formulario-busqueda {
+        display: flex;
+        gap: .7rem;
+    }
+
+    .etiqueta-busqueda {
+        font-size: 1.8rem;
+        font-weight: lighter;
+    }
+
+    .btn-buscar {
+        background-color: rgb(83, 138, 120);
+        border: 1px solid v.$secundario;
+        padding: .4rem;
+        border-radius: .5rem;
+        color: v.$blanco;
+        font-weight: 500;
+    }
+
+    .btn-buscar:hover {
+        cursor: pointer;
+        color: rgb(83, 138, 120);
+        background-color: v.$blanco;
+    }
+}
+

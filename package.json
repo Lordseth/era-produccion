@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_era_maquinados",
+  "version": "1.0.0",
+  "description": "Productividad, Eficiencia, Calidad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Zaragoza",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.51.0"
+  },
+
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}

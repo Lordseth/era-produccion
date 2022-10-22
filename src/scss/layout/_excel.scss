@@ -1,0 +1,25 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.excel {
+    
+    display: flex;
+    width: 24rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto 1.5rem auto;
+
+    .excel-leyenda {
+        margin: 0;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .excel-logo {
+        max-width: 5rem;
+        border-radius: .5rem;
+    }
+    .excel-logo:hover{
+        background-color: rgb(250, 209, 74);
+    }
+}

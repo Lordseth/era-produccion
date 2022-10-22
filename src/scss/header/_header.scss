@@ -1,0 +1,36 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.header {
+    background-color: v.$negro;
+    margin-bottom: 2rem;
+
+    .barra {
+        display: grid;
+        grid-template-columns: repeat(2, 1);
+        .navegacion {
+            margin-top: 1.6rem;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .logo {
+        padding-top: 1.5rem;
+    }
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin: 0 0 2rem 0;
+}
+
+ul .link-secundario {
+    font-size: 1.3rem;
+}
+

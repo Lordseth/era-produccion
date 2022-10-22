@@ -1,0 +1,9 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.pieza {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.3rem;
+    
+}

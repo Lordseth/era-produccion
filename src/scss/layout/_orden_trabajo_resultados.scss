@@ -1,0 +1,37 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenedor-resultados {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.orden-trabajo-resultados-grid {
+
+    display: grid;
+    gap: 1rem;
+
+    .orden-trabajo-resultados {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.3rem;
+        border: solid 1px #000;
+        border-radius: 1.3rem;
+        background-color: v.$primario;
+
+        p {
+            text-align: center;
+        }
+        
+        .datos {
+            background-color: v.$datos;
+            color: v.$blanco;
+            font-size: 1.8rem;
+            padding: .3rem;
+            border-radius: .3rem;
+        }
+    
+    }
+    
+}
+
